@@ -4,7 +4,7 @@ const USE_ROUTER = false
 
 class App {
 
-  HomeController = new HomeController()
+  QuestionsController = this.QuestionsController()
 
   constructor() {
     if (USE_ROUTER) {
